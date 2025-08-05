@@ -1,21 +1,31 @@
 import React from 'react';
 import {
-  FiDollarSign,
   FiHome,
-  FiLink,
-  FiPaperclip,
   FiUsers,
-} from 'react-icons/fi';
+  FiLink,
+  FiActivity,
+  FiFilter,
+  FiAlertCircle,
+  FiClock,
+  FiBarChart2,
+  FiSettings,
+  FiLogOut
+} from 'react-icons/fi'
 
 const RouteSelect = () => {
   return (
     <div className="space-y-1">
-      <Route Icon={FiHome} selected={true} title="Dashboard" />
-      <Route Icon={FiUsers} selected={false} title="Team" />
-      <Route Icon={FiPaperclip} selected={false} title="Invoices" />
-      <Route Icon={FiLink} selected={false} title="Integrations" />
-      <Route Icon={FiDollarSign} selected={false} title="Finance" />
-    </div>
+  <Route Icon={FiHome} selected={true} title="Dashboard Overview" />
+  <Route Icon={FiUsers} selected={false} title="Employee Directory" />
+  <Route Icon={FiLink} selected={false} title="Interface Logs" />
+  <Route Icon={FiFilter} selected={false} title="Advanced Filters" />
+  <Route Icon={FiClock} selected={false} title="Execution History" />
+  <Route Icon={FiAlertCircle} selected={false} title="Failure Notifications" />
+  <Route Icon={FiActivity} selected={false} title="Real-Time Status" />
+  <Route Icon={FiBarChart2} selected={false} title="Analytics & Trends" />
+  <Route Icon={FiSettings} selected={false} title="System Settings" />
+  {/* <Route Icon={FiLogOut} selected={false} title="Logout" /> */}
+</div>
   );
 };
 

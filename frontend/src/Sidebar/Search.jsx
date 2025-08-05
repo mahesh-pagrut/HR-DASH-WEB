@@ -18,7 +18,7 @@ const Search = () => {
           type="text"
           placeholder="Search"
           value={query}
-          onClick={(e) => setQuery(e.target.value)}
+          onChange={(e) => setQuery(e.target.value)}
           className="w-full bg-transparent placeholder:text-stone-400 focus:outline-none"
         />
 

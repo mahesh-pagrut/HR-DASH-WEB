@@ -11,7 +11,7 @@ const Sidebar = () => {
         <Search />
         <RouteSelect />
       </div>
-      {/* <Plan /> */}
+      <Plan />
     </div>
   );
 };

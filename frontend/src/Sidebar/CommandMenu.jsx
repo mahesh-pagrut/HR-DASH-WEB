@@ -22,7 +22,7 @@ const CommandMenu = ({ open, setOpen }) => {
       open={open}
       onOpenChange={setOpen}
       label="Global Command Menu"
-      className="fixed inset-0 bg-stone-950/50"
+      className="fixed inset-0 z-[10000] bg-stone-950/50"
       onClick={() => setOpen(false)}
     >
       <div
